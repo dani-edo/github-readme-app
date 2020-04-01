@@ -1,19 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <router-view>
+      <HomePage />
+    </router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HomePage from "./components/HomePage.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    HomePage
   }
-}
+};
 </script>
 
 <style>
@@ -24,5 +25,19 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.vue-logo {
+  width: 100px;
+}
+.container {
+  max-width: 600px !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.home-button {
+  position: fixed;
+  left: 10px;
+  top: 10px;
 }
 </style>
