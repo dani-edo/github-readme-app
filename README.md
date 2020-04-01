@@ -1,24 +1,23 @@
-# github-detail-vue
+# Github README
 
-## Project setup
-```
-npm install
-```
+With this application allows us to see what the repository is owned by a github user, then we can see the contents of the readme file in it.
 
-### Compiles and hot-reloads for development
+## Dependencies
 ```
-npm run serve
+"axios": "^0.19.2",
+"bootstrap": "^4.4.1",
+"bootstrap-vue": "^2.9.0",
+"core-js": "^3.6.4",
+"vue": "^2.6.11",
+"vue-router": "^3.1.6",
+"vue-simple-markdown": "^1.1.2"
 ```
+Or you can check on package.json file
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Try this!
+If you want to see this project result, all you have to do is:
+1. Download or clone this project in your local area
+2. Enter this directory (terminal)
+3. Type `npm install` to install all needed packages
+4. Type `npm run serve` to see the result / view
+5. Open `localhost: 8080` in your browser
