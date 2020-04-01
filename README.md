@@ -21,3 +21,6 @@ If you want to see this project result, all you have to do is:
 3. Type `npm install` to install all needed packages
 4. Type `npm run serve` to see the result / view
 5. Open `localhost: 8080` in your browser
+
+## App Result
+You can see this app result instantly at this page : https://github-show-readme.netlify.com/
